@@ -2,7 +2,7 @@ examples and exercises from:
 
 http://www.theodinproject.com/ruby-programming/bringing-ruby-online?ref=lc-pb
 
-Ruby on the Web
+# Ruby on the Web
 
 You know how to write scripts and games using Ruby but so far that's all confined within the boundaries of your local system. In this section, you'll learn how to break free and start mucking around on the Internet.
 
@@ -17,14 +17,14 @@ Points to Ponder
 
 Look through these now and then use them to test yourself after doing the assignment
 
-    How do you issue an HTTP request in Ruby?
-    How do you parse the response to get to the body content?
-    What is REST?
-    What's the difference between a GET and a POST request? (seem familiar?)
+* How do you issue an HTTP request in Ruby?
+* How do you parse the response to get to the body content?
+* What is REST?
+* What's the difference between a GET and a POST request? (seem familiar?)
 
-Your Assignment
+## Your Assignment
 
-    Go into your terminal and type $ curl http://www.google.com and observe the massive chunk of text that gets returned. That's Google's homepage and should give you an idea of some of the responses you can get from these types of requests.
-    Read Beginning Ruby Chapter 14, pages 413-432 for a look at taking on the Internet with Ruby. It dives into the guts of things pretty quickly, so breathe deep and forge on...
-    Read this extremely simple REST tutorial in Ruby, which is basically just to show you how dead simple it is to issue HTTP requests using Ruby and then grab the response.
-    Read this explanation of how HTTP works down through where it talks about the POST method (about halfway down). You can stop before the HTTP Proxies section.
+1. Go into your terminal and type $ curl http://www.google.com and observe the massive chunk of text that gets returned. That's Google's homepage and should give you an idea of some of the responses you can get from these types of requests.
+2. Read Beginning Ruby Chapter 14, pages 413-432 for a look at taking on the Internet with Ruby. It dives into the guts of things pretty quickly, so breathe deep and forge on...
+3. Read this extremely simple REST tutorial in Ruby, which is basically just to show you how dead simple it is to issue HTTP requests using Ruby and then grab the response.
+4. Read this explanation of how HTTP works down through where it talks about the POST method (about halfway down). You can stop before the HTTP Proxies section.
